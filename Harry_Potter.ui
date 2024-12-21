@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Гримоар Чарів</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QCalendarWidget" name="calendar">
@@ -26,10 +26,12 @@
     <property name="font">
      <font>
       <pointsize>11</pointsize>
+      <bold>true</bold>
+      <italic>true</italic>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background:#F27405</string>
+     <string notr="true">background:#3c0a00; color:#d4af37; border: 2px solid #4b2e83;</string>
     </property>
     <property name="navigationBarVisible">
      <bool>false</bool>
@@ -50,16 +52,15 @@
     <property name="font">
      <font>
       <pointsize>20</pointsize>
+      <bold>true</bold>
+      <italic>true</italic>
      </font>
     </property>
     <property name="text">
-     <string>Автостарт</string>
+     <string>Автостарт ⚡</string>
     </property>
-    <property name="iconSize">
-     <size>
-      <width>20</width>
-      <height>20</height>
-     </size>
+    <property name="styleSheet">
+     <string notr="true">color:#d4af37;</string>
     </property>
    </widget>
    <widget class="QPushButton" name="start_2">
@@ -74,10 +75,15 @@
     <property name="font">
      <font>
       <pointsize>12</pointsize>
+      <bold>true</bold>
+      <italic>true</italic>
      </font>
     </property>
     <property name="text">
-     <string>Вперед✨🪄</string>
+     <string>Вперед ✨🪄</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:#4b2e83; color:#d4af37; border: 2px solid #3c0a00;</string>
     </property>
    </widget>
    <widget class="QPushButton" name="stop">
@@ -92,10 +98,15 @@
     <property name="font">
      <font>
       <pointsize>12</pointsize>
+      <bold>true</bold>
+      <italic>true</italic>
      </font>
     </property>
     <property name="text">
      <string>Стояти ⚡</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:#4b2e83; color:#d4af37; border: 2px solid #3c0a00;</string>
     </property>
    </widget>
    <widget class="QVideoWidget" name="video" native="true">
@@ -108,7 +119,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background:#F27405</string>
+     <string notr="true">background:#3c0a00; border: 2px solid #d4af37;</string>
     </property>
    </widget>
   </widget>
@@ -121,8 +132,15 @@
      <height>21</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background:#4b2e83; color:#d4af37;</string>
+   </property>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="styleSheet">
+    <string notr="true">background:#4b2e83; color:#d4af37;</string>
+   </property>
+  </widget>
  </widget>
  <customwidgets>
   <customwidget>
